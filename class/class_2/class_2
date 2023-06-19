@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo yum update rpm -y; 
+sudo update -y
+sudo yum install git -y
+git config --global user.name "NAME"
+git config --global user.email "EMAIL_HERE"
+
+
+git clone https://git@github.com:noorydean/scriptclass.git /root/scriptclass
